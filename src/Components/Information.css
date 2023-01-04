@@ -1,0 +1,36 @@
+/* img {
+    width: 60%;
+  
+   
+   
+   
+}
+.Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: aqua;
+    
+    
+}
+.Person {
+    width: 50%;  
+}
+.clouds{
+    position: absolute;
+        width: 300px;
+        animation: clouds-animation 20s infinite linear;
+}
+@keyframes clouds-animation {
+    from {
+    left: -300px;
+    }
+
+    to {
+        left: 100%;
+    }
+} */
