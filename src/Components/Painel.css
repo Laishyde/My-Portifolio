@@ -20,6 +20,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+  
     
 }
 img {
@@ -88,6 +89,24 @@ img {
 #day:focus::after {
     animation: none;
     display: none;
+}
+.Girl {
+    width: 500px;
+    height: 300px;
+    margin-top: 300px;
+  
+   
+
+  
+   
+}
+
+.flower {
+    width: 250px;
+   padding-right: 230px;
+    
+  
+
 }
 
 @keyframes ring {

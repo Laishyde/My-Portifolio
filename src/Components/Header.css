@@ -83,6 +83,14 @@ button:focus::after {
     animation: none;
     display: none;
 }
+.man {
+    width: 200px;
+}
+.Boy{
+    width: 100%;
+    margin-top: 300px;
+    display: flex;
+}
 
 @keyframes ring {
     0% {
@@ -99,5 +107,4 @@ button:focus::after {
         
 }
 /* test */
-
 

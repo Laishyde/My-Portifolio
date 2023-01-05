@@ -1,5 +1,9 @@
 import './Header.css';
 import Imagem from "../assets/gif.gif";
+import Gif from "../assets/boy.gif";
+
+
+
 
 const Header = ({startPainel}) => {
  
@@ -14,9 +18,15 @@ const Header = ({startPainel}) => {
       </div>
       <div className="Dragon">
         <img className="clouds" src={Imagem} alt="" />
-
+      </div>
+      
+      <div className='Boy'>
+        <img className='man' src={Gif} alt="" />
 
       </div>
+      
+
+    
     </div>
   )
 }

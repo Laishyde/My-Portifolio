@@ -1,5 +1,4 @@
 import './App.css';
-
 import Header from './Components/Header'
 import Painel from './Components/Painel';
 import { useCallback, useEffect, useState } from 'react';
@@ -33,12 +32,7 @@ function App() {
       {painelStage === "start" && <Header startPainel={startPainel} />}
       {painelStage === "end" && <Painel retry={retry} />} 
     
-      
-     
-     
- 
- 
-  
+    
   
     </div>
   );
